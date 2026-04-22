@@ -1,0 +1,21 @@
+.hero {
+    height: 90vh;
+    background: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70') center/cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 10px black;
+}
+.hero h2 {
+    font-size: 50px;
+}
+.hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: gold;
+    border: none;
+    cursor: pointer;
+
+}
