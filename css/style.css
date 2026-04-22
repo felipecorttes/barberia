@@ -17,5 +17,31 @@
     background: gold;
     border: none;
     cursor: pointer;
+}
 
+.servicios {
+    text-align: center;
+    padding: 60px 20px;
+}
+.servicios h2 {
+    margin-bottom: 30px;
+}
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.tarjeta {
+    background: #1c1c1c;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+,tarjeta:hover {
+    transform: translateY(-10px);
+}
+.tarjeta h3{
+    color: gold;
 }
