@@ -1,3 +1,5 @@
+
+
 .hero {
     height: 90vh;
     background: url('https://images.unsplash.com/photo-1585747860715-2ba37e788b70') center/cover ;
@@ -71,4 +73,8 @@
     width: 300px;
     height: 300px;
     object-fit: cover;
+}
+img{
+    max-width: 100%;
+    height: auto;
 }

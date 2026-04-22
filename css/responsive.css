@@ -1,0 +1,18 @@
+img {
+    max-width: 100%;
+    height: auto;
+}
+body {
+    overflow-x: hidden;
+}
+@media (max-width: 768px) {
+    header,
+    .hero,
+    .container,
+    .tarjetas,
+    .trabajos,
+    footer {
+        flex-direction: column !important;
+        text-align: center;
+    }
+}
