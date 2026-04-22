@@ -22,6 +22,10 @@
 .servicios {
     text-align: center;
     padding: 60px 20px;
+    background: url('https://images.unsplash.com/photo-1503951914875-452162b0f3f1') center/cover no-repeat;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
 }
 .servicios h2 {
     margin-bottom: 30px;
