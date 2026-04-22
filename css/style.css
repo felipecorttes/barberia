@@ -45,3 +45,20 @@
 .tarjeta h3{
     color: gold;
 }
+.logo{
+    width: 120px;
+}
+.galeria{
+    padding: 80px 60px;
+
+}
+.imagenes{
+    display: flex;
+    gap: 15px;
+
+}
+.imagenes img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
