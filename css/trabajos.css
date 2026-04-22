@@ -1,0 +1,20 @@
+.trabajos{
+    background: #f5f0e6;
+    padding:  20px;
+    text-align: center;
+}
+.trabajos h2 {
+    margin-bottom: 40px;
+    font-size: 28px;
+}
+.galeria {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.galeria img {
+    width: 250px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
