@@ -1,0 +1,23 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background: #111;
+    color: white;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.footerseccion {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 200px;
+}
+.footerseccion a {
+    color: white;
+    text-decoration: none;
+
+}
+.footerseccion a:hover{
+    text-decoration: underline;
+}
