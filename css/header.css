@@ -34,3 +34,15 @@ nav a::after{
 nav a:hover::after{
     width: 100%;
 }
+,logo {
+    width: 100px;
+    filter: brightness(0) invert(1);
+    transition: 0.3s;
+}
+.logo:hover {
+    transform: scale(1.05);
+}
+.logobox{
+    border: 1px solid #333;
+    padding: 5px 10px;
+}
